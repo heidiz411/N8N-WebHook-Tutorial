@@ -1,0 +1,9 @@
+## Instalation:
+winget install ngrok -s msstore
+
+
+## Add your authentication token to the agent:
+ngrok config add-authtoken YOUR_AUTHTOKEN
+
+## Start a test tunnel (for example, on port 80):
+ngrok http 80
